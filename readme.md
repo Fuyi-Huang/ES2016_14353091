@@ -82,7 +82,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 然后运行第一个例子
 <pre>$	ant -f runexample.xml -Dnumber=1</pre>
 
-成功结果如图所示：
+<p>成功结果如图所示：</p>
 
 ![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img4.png)
 
