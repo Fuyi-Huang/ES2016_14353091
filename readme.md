@@ -44,16 +44,16 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 <pre>$ sudo ../configure CXX=g++ --disable-async-updates</pre>
 下图为运行configure之后的截图：
 
-![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/%E5%9B%BE%E7%89%871.jpg)
+![Alt text](images/img1.jpg)
 
 编译：
 <pre>$	sudo make install</pre>
 编译完后文件目录如下($ cd ..        $ ls
-![Alt text](images/图片2.jpg)
+![Alt text](images/img2.jpg)
 
 记录当前的工作路径(会输出当前所在路径，记下来，待会有用)
 <pre>$	pwd</pre>
-![Alt text](images/图片3.jpg)
+![Alt text](images/img3.jpg)
 这里表示我当前的工作路径为 /root/systemc-2.3.1
 
 3.编译dol
@@ -77,7 +77,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 <pre>$	ant -f runexample.xml -Dnumber=1</pre>
 成功结果如图所示：
 
-![ddfd](images/图片4.png)
+![ddfd](images/img4.png)
 
 Run example1:
 <pre> $ cd build/bin/main
