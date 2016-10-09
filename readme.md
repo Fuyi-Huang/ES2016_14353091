@@ -81,7 +81,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 
 ![Alt text](images/图片5.png)
 
-
+![image](http://img05.tooopen.com/images/20140604/sy_62331342149.jpg)
 
 Run example1:
 <pre> $ cd build/bin/main
