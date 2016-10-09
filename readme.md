@@ -86,7 +86,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 
 <p>![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img4.png)
 
-Run example1:
+<p>Run example1:
 <pre> $ cd build/bin/main
  $ ant -f runexample.xml -Dnumber=1
 </pre>
