@@ -82,7 +82,7 @@ Run example1:
 <pre> $ cd build/bin/main
  $ ant -f runexample.xml -Dnumber=1
 </pre>
-![Alt text](./1476030911694.png)
+![Alt text](blob:https://maxiang.io/bdc21243-d84b-4455-8363-c914d7b08cd1)
 
 
 ----------
