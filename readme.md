@@ -83,9 +83,10 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 <pre>$ cd objdir</pre>
 运行configure(能根据系统的环境设置一下参数，用于编译)
 <pre>$ sudo ../configure CXX=g++ --disable-async-updates</pre>
+
 下图为运行configure之后的截图：
-***
-![Alt text](images/img1.jpg)
+
+![Alt text](http://pic36.nipic.com/20131128/11748057_141932278338_2.jpg)
 
 编译：
 <pre>$	sudo make install</pre>
