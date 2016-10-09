@@ -18,6 +18,7 @@ on a multi-processor systems, including binding and mapping.
 $ sudo apt-get install ant
 $ sudo apt-get install openjdk-7-jdk
 $ sudo apt-get install unzip
+</pre>
 
 ----------
 
