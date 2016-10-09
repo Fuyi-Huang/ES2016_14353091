@@ -44,7 +44,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 <pre>$ sudo ../configure CXX=g++ --disable-async-updates</pre>
 下图为运行configure之后的截图：
 
-![Alt text](images/图片1.jpg)
+![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/%E5%9B%BE%E7%89%871.jpg)
 
 编译：
 <pre>$	sudo make install</pre>
