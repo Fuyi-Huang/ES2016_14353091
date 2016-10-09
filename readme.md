@@ -44,7 +44,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 运行configure(能根据系统的环境设置一下参数，用于编译)
 <pre>$ sudo ../configure CXX=g++ --disable-async-updates</pre>
 
-下图为运行configure之后的截图：
+<p>下图为运行configure之后的截图：</p>
 
 <img src = "images/img1.jpg"/>
 
