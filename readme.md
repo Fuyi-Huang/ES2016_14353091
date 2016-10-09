@@ -84,20 +84,20 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 运行configure(能根据系统的环境设置一下参数，用于编译)
 <pre>$ sudo ../configure CXX=g++ --disable-async-updates</pre>
 下图为运行configure之后的截图：
-
+***
 ![Alt text](images/img1.jpg)
+
 编译：
 <pre>$	sudo make install</pre>
 编译完后文件目录如下($ cd ..        $ ls
 
 ![Alt text](images/img2.jpg)
-![](images/img2.jpg)
 
 记录当前的工作路径(会输出当前所在路径，记下来，待会有用)
 <pre>$	pwd</pre>
 
 ![Alt text](images/img3.jpg)
-![](images/img3.jpg)
+
 
 这里表示我当前的工作路径为 /root/systemc-2.3.1
 
