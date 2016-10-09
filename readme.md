@@ -46,19 +46,19 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
 下图为运行configure之后的截图：
 
-![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img1.jpg)
+<img src = "images/img1.jpg"/>
 
 编译：
 <pre>$    sudo make install</pre>
 编译完后文件目录如下(
 <pre>$ cd ..        $ ls</pre>
 
-![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img2.jpg)
+<img src = "images/img2.jpg"/>
 
 记录当前的工作路径(会输出当前所在路径，记下来，待会有用)
 <pre>$	pwd</pre>
 
-![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img3.jpg)
+<img src = "images/img3.jpg"/>
 
 这里表示我当前的工作路径为 /root/systemc-2.3.1
 
