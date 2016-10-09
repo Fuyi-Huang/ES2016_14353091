@@ -84,7 +84,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 
 成功结果如图所示：
 
-<p>![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img4.png)
+![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img4.png)
 
 <p>Run example1:
 <pre> $ cd build/bin/main
