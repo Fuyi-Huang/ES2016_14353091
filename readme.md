@@ -89,3 +89,4 @@ Run example1:
 
 
 ## Experimental experience
+实验中用的ubuntu是管师兄提供的ubuntu，在打开ubuntu时有遇到bios设置中VX-T未使能不能进入的错误，然后重启电脑进入bios将VX-T使能就好了。
