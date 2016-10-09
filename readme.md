@@ -45,7 +45,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 下图为运行configure之后的截图：
 
 ![Alt text](https://github.com/Fuyi-Huang/ES2016_14353091/raw/master/images/img1.jpg)
-
+![image](https://github.com/Fuyi-Huang/Fuyi-Huang.github.io-vscode-python/raw/master/pictures/capture1.JPG)
 编译：
 <pre>$	sudo make install</pre>
 编译完后文件目录如下($ cd ..        $ ls
