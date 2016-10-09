@@ -77,7 +77,7 @@ property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"
 <pre>$	ant -f runexample.xml -Dnumber=1</pre>
 成功结果如图所示：
 
-![ddfd](images/图片4.jpg)
+![ddfd](images/图片4.png)
 
 Run example1:
 <pre> $ cd build/bin/main
