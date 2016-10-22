@@ -63,7 +63,9 @@ done
 
 
 4.执行结果：
+
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/lab4/Deadlock.png?raw=true)
+
 在第890次循环时产生了死锁
 
 5.死锁的4个必要条件：
