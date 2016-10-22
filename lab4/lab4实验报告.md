@@ -58,7 +58,9 @@ do
 done
 ```
 3.ubuntu终端的执行命令：
+
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/lab4/terminal.png?raw=true)
+
 
 4.执行结果：
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/lab4/Deadlock.png?raw=true)
