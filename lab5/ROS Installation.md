@@ -4,6 +4,7 @@
 2. Setup your sources.list![1.png](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/1.png?raw=true)
 
 3. Set up your keys
+
 ![2.png](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/2.png?raw=true)
 
 4. Installation 
@@ -12,6 +13,7 @@ First, make sure your Debian package index is up-to-date:
 Desktop-Full Install : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception 
  ``` sudo apt-get install ros-jade-desktop-full```![4.png](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/4.png?raw=true)
 ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. ``` sudo apt-get install ros-jade-ros-base```
+
 ![5.png](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/5.png?raw=true)
 
 
