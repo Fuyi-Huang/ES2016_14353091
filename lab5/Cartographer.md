@@ -17,13 +17,13 @@
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/3.png?raw=true)
 
-```make```
+```make ```
 
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/4.png?raw=true)
 
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/5.png?raw=true)
 
-```sudo make install```
+```sudo make install ```
 
 ![1](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/6.png?raw=true)
 
@@ -34,35 +34,35 @@
 
 2然后安装 cartographer,路径随意
 
-```git clone https://github.com/hitcm/cartographer.git```
+```git clone https://github.com/hitcm/cartographer.git ```
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/8.png?raw=true)
 
-```cd cartographer/build```
+```cd cartographer/build ```
 
-```cmake .. -G Ninja```
+```cmake .. -G Ninja ```
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/9.png?raw=true)
 
 
-```ninja```
+```ninja ```
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/10.png?raw=true)
 
-```ninja test```
+```ninja test ```
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/11.png?raw=true)
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/12.png?raw=true)
 
-```sudo ninja install```
+```sudo ninja install ```
 
 
 3安装cartographer_ros
 
 新建carkin_ws/src文件夹，然后下载到catkin_ws下面的src文件夹下面
 
-```git clone https://github.com/hitcm/cartographer_ros.git```
+```git clone https://github.com/hitcm/cartographer_ros.git ```
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/14.png?raw=true)
 
@@ -79,7 +79,6 @@
 ```sudo apt-get update```
 
 ```sudo apt-get install -y python-wstool python-rosdep ninja-build```
-
 
 ```Create a new workspace in 'catkin_ws'.```
 
@@ -103,7 +102,7 @@
 
 ```rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO} -y ```
 
-再运行```catkin_make```命令
+再运行```catkin_make ```命令
 
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/16.png?raw=true)
 
@@ -111,11 +110,11 @@
 
 下载2d数据包：
 
-```wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag```
+```wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag  ```
 
 运行数据包：
 
-```roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag```
+```roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag ```
 
 第一次跑到这里一般会有这个错误：
 
@@ -123,23 +122,23 @@
 [cartographer_ros] nor is [cartographer_ros] a launch file name The traceback
 for the exception was written to the log file
 
-这种错误的主要原因是ros的catkin_ws配置问题，可以运行 ```rospack profile``` 试试。
+这种错误的主要原因是ros的catkin_ws配置问题，可以运行 ```rospack profile ``` 试试。
 
 接下来应该还有可能说一个连接不上server的问题，解决办法如下：
 
-```cd```
+```cd ```
 
-```gedit ~/.bashrc```
+```gedit ~/.bashrc ```
 
 最后三行加上
 
-```export```
+```export ```
 
-```ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/siat/ccny/ccny_vision:/home/siat/catkin_ws/src```
+```ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/siat/ccny/ccny_vision:/home/siat/catkin_ws/src ```
 
 ```export ROS_HOSTNAME=localhost```
 
-```export ROS_MASTER_URI=http://localhost:11311```
+```export ROS_MASTER_URI=http://localhost:11311 ```
 
 最终结果：
 
