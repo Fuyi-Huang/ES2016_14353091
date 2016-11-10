@@ -11,10 +11,10 @@
 ```cmake ..```
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/3.png?raw=true)
 ```make```
-![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/4.png?raw=true)
-![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/5.png?raw=true)
+![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/4.png?raw=true)
+![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/5.png?raw=true)
 ```sudo make install```
-![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/6.png?raw=true)
+![1](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/6.png?raw=true)
 <br>
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/7.png?raw=true)
 
@@ -28,7 +28,6 @@
 
 ```ninja```
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/10.png?raw=true)
-
 ```ninja test```
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/11.png?raw=true)
 
