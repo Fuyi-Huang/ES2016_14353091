@@ -11,6 +11,7 @@
 ```cmake ..```
 ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/3.png?raw=true)
 ```make```
+<img src = "../images/Cartographer/4.png>
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/4.png?raw=true)
 ![a](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/Cartographer/5.png?raw=true)
 ```sudo make install```
