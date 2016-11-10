@@ -1,6 +1,7 @@
 ### Cartographer
 0.安装所有依赖项
-``` sudo apt-get install -y google-mock libboost-all-dev  libeigen3-dev libgflags-dev libgoogle-glog-dev liblua5.2-dev libprotobuf-dev  libsuitesparse-dev libwebp-dev ninja-build protobuf-compiler python-sphinx  ros-indigo-tf2-eigen libatlas-base-dev libsuitesparse-dev liblapack-dev``` ![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/9.png?raw=true)
+``` sudo apt-get install -y google-mock libboost-all-dev  libeigen3-dev libgflags-dev libgoogle-glog-dev liblua5.2-dev libprotobuf-dev  libsuitesparse-dev libwebp-dev ninja-build protobuf-compiler python-sphinx  ros-indigo-tf2-eigen libatlas-base-dev libsuitesparse-dev liblapack-dev``` 
+![enter image description here](https://github.com/Fuyi-Huang/ES2016_14353091/blob/master/images/ROS/9.png?raw=true)
 
 1 首先安装ceres solver，选择的版本是1.11,路径随意
 
